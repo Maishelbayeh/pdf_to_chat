@@ -3,14 +3,17 @@ import json
 import requests
 import streamlit as st
 from dotenv import load_dotenv
-from resume_parser import parse_resume
 
+# Load environment variables from .env file
+load_dotenv()
 
+# Access the OpenAI API key securely
+openai_api_key = os.getenv("OPENAI_API_KEY")
 API_URL = "https://api.openai.com/v1/chat/completions"
 
 def chat_with_pdf(pdf_text, user_query):
     headers = {
-        "Authorization": f"Bearer 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",
+        "Authorization": f"Bearer {openai_api_key}",
         "Content-Type": "application/json"
     }
     payload = {

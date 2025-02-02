@@ -1,5 +1,8 @@
 # Pdf-To-ChatModel
 
+## Demo 🎥
+[Click here to watch the demo video!](assets/Demo.mp4)
+
 ## Overview  
 
 **Pdf-To-ChatModel** is an AI-powered system that enables users to upload PDF files and interact with their content through a chat interface. Using advanced NLP models like OpenAI GPT, LangChain, or LlamaIndex, the system extracts relevant information and provides meaningful responses based on user queries.  
@@ -38,6 +41,6 @@ Ensure you have the following installed:
 Clone the repository and install dependencies:  
 
 ```bash
-git clone https://github.com/your-repo/Pdf-To-ChatModel.git  
-cd Pdf-To-ChatModel  
+git clone https://github.com/Maishelbayeh/pdf_to_chat.git
+ 
 pip install -r requirements.txt  

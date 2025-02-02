@@ -1,28 +1,43 @@
-# resumeModel
+# Pdf-To-ChatModel
 
-## Overview
+## Overview  
 
-The Career Path Recommendation System is a web application built using Streamlit that helps users discover potential career paths based on their resumes. The application leverages resume parsing and a career recommendation model to provide tailored suggestions to users.
+**Pdf-To-ChatModel** is an AI-powered system that enables users to upload PDF files and interact with their content through a chat interface. Using advanced NLP models like OpenAI GPT, LangChain, or LlamaIndex, the system extracts relevant information and provides meaningful responses based on user queries.  
 
-## Features
+## Features  
 
-- **Resume Upload**: Users can upload their resumes in PDF format.
-- **Resume Parsing**: The system extracts relevant information from the uploaded resume.
-- **Career Path Recommendations**: The system generates personalized career paths based on the extracted resume data.
+- **PDF Upload & Extraction**: Users can upload PDFs, and the system extracts text for analysis.  
+- **AI-Powered Chat**: Engage in a conversation with the document using AI.  
+- **Context-Aware Responses**: The system retrieves the most relevant information based on user queries.  
+- **Simple UI (Optional)**: A lightweight interface built with Streamlit.  
 
-## Technologies Used
+## Technologies Used  
 
-- **Python**: The main programming language.
-- **Streamlit**: For building the web application.
-- **resume-parser**: For extracting data from resumes.
-- **dotenv**: To manage environment variables.
-- **CareerPathRecommender**: A custom model for generating career recommendations.
+### Backend  
+- **Python**: Core programming language.  
+- **Flask**: Web framework for API development.  
+- **pdfplumber**: Extracts text from PDFs efficiently.  
+- **OpenAI GPT**: AI models for NLP and document retrieval.  
+- **python-dotenv**: Manages environment variables securely.  
 
-## Getting Started
+### Frontend  
+- **Streamlit** (Optional): Provides an interactive UI for user interactions.  
 
-### Prerequisites
+### Others  
+- **requests**: Handles API requests.  
 
-Make sure you have the following installed:
+## Getting Started  
 
-- Python 3.x
-- pip
+### Prerequisites  
+Ensure you have the following installed:  
+- Python 3.x  
+- pip (Python package manager)  
+
+### Installation  
+
+Clone the repository and install dependencies:  
+
+```bash
+git clone https://github.com/your-repo/Pdf-To-ChatModel.git  
+cd Pdf-To-ChatModel  
+pip install -r requirements.txt  

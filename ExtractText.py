@@ -1,6 +1,6 @@
 import pdfplumber
 
-def parse_resume(pdf_path):
+def ExtractText(pdf_path):
     extracted_text = ""
     
     with pdfplumber.open(pdf_path) as pdf:

@@ -13,7 +13,8 @@ API_URL = "https://api.openai.com/v1/chat/completions"
 
 def chat_with_pdf(pdf_text, user_query):
     headers = {
-        "Authorization": f"Bearer {openai_api_key}",
+       "Authorization": f"Bearer {openai_api_key}",
+
         "Content-Type": "application/json"
     }
     payload = {
